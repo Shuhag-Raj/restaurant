@@ -1,0 +1,76 @@
+@media (max-width: 991.98px){ 
+    .menu{  
+        position: absolute;
+        left: 0;
+        display: none;
+        top: 60px;
+        width: 100%;
+        background: #000; 
+        margin: 0 !important;
+    } 
+    .header_container {
+        width: 80%; 
+    }
+    .menu li{
+        padding: 15px 0;
+        border-bottom: 1px solid #ffffff4d;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    } 
+    .menu li a::before,
+    .menu li a:hover::before{
+        display: none;
+    }
+    .social_icons{
+        display: none !important;
+    }
+    .collapse_btn{ 
+        display: block;  
+    }
+    /* Start Body */
+    .hero_con h1,
+    .hero_con h2{ 
+        font-size: 60px;  
+    }
+    input{
+        width: 300px;
+    } 
+}
+@media (max-width: 767.98px) {
+    .hero_con h1,
+    .hero_con h2{ 
+        font-size: 45px;  
+    }
+    .section_con_main{
+        padding: 40px 10px;
+    } 
+    figure blockquote{
+        font-size: 20px;
+    }
+    .reserve_con h3{
+        font-size: 30px;
+    } 
+    input{
+        width: 250px;
+    } 
+}
+@media (max-width: 575.98px) {
+    .hero_con h1,
+    .hero_con h2{ 
+        font-size: 30px;  
+    }
+    .section_img img{
+        width: 20%;
+    }
+    .review_con_main{ 
+        padding: 40px 5px; 
+    } 
+    .quote_img{ 
+        margin-left: 8px;
+        margin-top: 10px;  
+    }
+    input{
+        width: 100%;
+    }
+}
